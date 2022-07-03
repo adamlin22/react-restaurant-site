@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 
-export default function App() {
+function App() {
   return (
     <div>
       <h1>Hello StackBlitz!</h1>
@@ -9,3 +9,5 @@ export default function App() {
     </div>
   );
 }
+
+export default App;
