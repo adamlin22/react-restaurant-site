@@ -1,11 +1,11 @@
 import React from 'react';
-import './App.css';
+import Restaurant from './components/basics/Restaurant';
 
 function App() {
   return (
-    <div>
-      <h1>Hello Rohit!</h1>
-    </div>
+    <>
+      <Restaurant />
+    </>
   );
 }
 
