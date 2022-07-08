@@ -3,6 +3,12 @@ import './restaurant-style.css';
 import Menu from './menuApi';
 import MenuCard from './MenuCard';
 
+const uniqueList = Menu.map((currentElement) => {
+  return currentElement.category;
+});
+
+console.log(uniqueList);
+
 const Restaurant = () => {
   //hooks !! you should add hooks always on top of everything
   // useState hook used to manage data also known as "state management"
@@ -12,10 +18,10 @@ const Restaurant = () => {
   const [menuData, setMenuData] = useState(Menu);
 
   const filterItem = (category) => {
-    const updatedList = Menu.filter((currentElement) => {
-      // currentElement ki category filterItem(category) se match wala return krna
+    const updatedList = Menu.filter(curEle);
+    const curEle = (currentElement) => {
       return currentElement.category === category;
-    });
+    };
     setMenuData(updatedList);
   };
 
