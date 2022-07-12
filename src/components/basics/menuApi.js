@@ -95,7 +95,7 @@ const Menu = [
     image:
       'https://raw.githubusercontent.com/RohitKS7/complete_react2021/main/public/images/samosa.jpg',
     name: 'rohit',
-    category: 'Rohit',
+    category: 'New Data',
     price: '10₹',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto. Accusamus quas, soluta ipsam autem eius necessitatibus fugiat in . ',
